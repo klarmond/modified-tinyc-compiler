@@ -624,7 +624,7 @@ except FileNotFoundError:
     print("Couldn't print output file")
 finally:
     print("\nPARSER MESSAGE:")
-    print("--Parse tree tokens printed to the file 'parse.txt'.")
+    print("--Parse tree tokens printed to the file 'parse_tree.txt'.")
     token_types.pop()  # to get ird of the '$' at the end of the list
     print_parse_tree(token_types)
 
